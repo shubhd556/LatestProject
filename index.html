@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>particles.js</title>
+  <link rel="stylesheet" media="screen" href="css/style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+
+<body>
+  <nav>
+    <div class="menu-icon">
+      <span class="fas fa-bars"></span>
+    </div>
+    <div class="logo">Seerlink</div>
+    <div class="nav-items">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Products</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Contact</a></li>
+      <li><a href="#">Feedback</a></li>
+    </div>
+    <div class="search-icon">
+      <span class="fas fa-search"></span>
+    </div>
+    <div class="cancel-icon">
+      <span class="fas fa-times"></span>
+    </div>
+    <form action="#">
+      <input type="search" class="search-data" placeholder="Search" required />
+      <button type="submit" class="fas fa-search"></button>
+    </form>
+  </nav>
+  </div>
+  <div id="particles-js"></div>
+  <footer>
+    <div class="footer-gray">
+      <div class="footer-custom">
+        <div class="footer-lists">
+          <div class="footer-list-wrap">
+            <ul class="ftr-links-sub">
+            </ul>
+
+          </div>
+          <!--/.footer-list-wrap-->
+          <div class="footer-list-wrap">
+            <h6 class="ftr-hdr">Platform</h6>
+            <ul class="ftr-links-sub">
+              <li><a href="#" rel="nofollow">Overview</a></li>
+              <li><a href="#" rel="nofollow">Data Science Platform</a></li>
+              <li><a href="#" rel="nofollow">Big Data</a></li>
+              <li><a href="#" rel="nofollow">Data Science as a Service</li>
+              <li><a href="#" rel="nofollow">International Orders</a></li>
+              <li><a href="#" rel="nofollow">FAQs</a></li>
+            </ul>
+          </div>
+          <div class="footer-list-wrap">
+            <h6 class="ftr-hdr">About Seerlink</h6>
+            <ul class="ftr-links-sub">
+              <li><a href="#" rel="nofollow">Our Company</a></li>
+              <li><a href="#" rel="nofollow">Careers</a></li>
+              <li><a href="#" rel="nofollow">Business &amp; Trade Sales</a></li>
+              <li><a href="#" rel="nofollow"><strong>Shop Our Catalog</strong></a></li>
+              <li><a href="#" rel="nofollow">Seerlink.COM BLOG</a></li>
+            </ul>
+          </div>
+          <!--/.footer-list-wrap-->
+          <div class="footer-list-wrap">
+            <h6 class="ftr-hdr">My Account</h6>
+            <ul class="ftr-links-sub">
+              <art:content rule="!loggedin">
+                <li class="ftr-Login"><span class="link login-trigger">Access My Account</span></li>
+                <li><span class="link">Track my Records</span></li>
+              </art:content>
+              <art:content rule="loggedin">
+                <li class="ftr-Login"><span class="link ftr-access-my-account">Access My Account</span></li>
+                <li><span class="link" onclick="window.location.href = getProfileKey() + '?pagetype=oh';">Track My
+                    Order</span></li>
+              </art:content>
+            </ul>
+          </div>
+          <!--/.footer-list-wrap-->
+        </div>
+        <!--/.footer-lists-->
+        <div class="footer-email">
+          <h6 class="ftr-hdr">Subscribe to Our Blog</h6>
+          <div id="ftr-email" class="ftr-email-form">
+            <form id="ftrEmailForm" method="post" action="http://em.art.com/pub/rf">
+              <div class="error">Please enter a valid email address</div>
+              <input type="text" name="email_address_" id="ftrEmailInput" class="input"
+                placeholder="Enter email address" />
+              <!--
+                  -->
+              <input type="submit" class="button" value="SUBMIT" />
+              <input type="hidden" name="country_iso2" value="">
+              <input type="hidden" name="language_iso2" value="en">
+              <input type="hidden" name="site_domain" value="art.com">
+              <input type="hidden" name="email_acq_source" value="01-000001">
+              <input type="hidden" name="email_acq_date" value="" id="ftr-email-date">
+              <input type="hidden" name="brand_id" value="ART">
+              <input type="hidden" name="_ri_"
+                value="X0Gzc2X%3DWQpglLjHJlYQGnp51yrMf2qXdC9tjU8pzgMtwfYzaVwjpnpgHlpgneHmgJoXX0Gzc2X%3DWQpglLjHJlYQGnyLSq2fzdkuzdzglHMsUhgeNzaSgkk">
+            </form>
+          </div>
+          <!--/.ftr-email-form-->
+          <div class="ftr-email-privacy-policy"></div>
+        </div>
+        <!--/.footer-email-->
+        <div class="footer-social">
+          <h6 class="ftr-hdr">Follow Us</h6>
+          <ul>
+            <li>
+              <a href="https://www.facebook.com/art.com" title="Facebook"
+                onclick="_gaq.push(['_trackSocial', 'Facebook', 'Follow', 'Footer', 'undefined', 'True']);">
+                <img width="24" height="24" alt="Like us on Facebook"
+                  src="http://cache1.artprintimages.com/images/jump_pages/rebrand/footer/fb.png">
+              </a>
+            </li>
+            <li>
+              <a href="https://plus.google.com/108089796661280870153" title="Google+"
+                onclick="_gaq.push(['_trackSocial', 'GooglePlus', 'Follow', 'Footer', 'undefined', 'True']);">
+                <img width="24" height="24" alt="Follow us on Google+"
+                  src="http://cache1.artprintimages.com/images/jump_pages/rebrand/footer/gplus.png">
+              </a>
+            </li>
+            <li>
+              <a href="https://pinterest.com/artdotcom/" target="_blank">
+                <img width="24" height="24" alt="Follow us on Pinterest"
+                  src="http://cache1.artprintimages.com/images/jump_pages/rebrand/footer/pin-badge.png">
+              </a>
+            </li>
+            <li>
+              <a target="_blank" href="http://instagram.com/artdotcom/">
+                <img width="24" height="24" alt="Follow us on Instagram"
+                  src="http://cache1.artprintimages.com/images/jump_pages/rebrand/footer/instagram-badge.png">
+              </a>
+            </li>
+            <li>
+              <a href="https://www.twitter.com/artdotcom" title="Twitter"
+                onclick="_gaq.push(['_trackSocial', 'Twitter', 'Follow', 'Footer', 'undefined', 'True']);">
+                <img width="67" alt="Follow us on Twitter"
+                  src="http://cache1.artprintimages.com/images/jump_pages/rebrand/footer/twitter.png">
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!--/.footer-social-->
+        <div class="footer-legal">
+          <p>&copy; Seerlink.com Inc. All Rights Reserved. | <a href="/help/privacy-policy.html" rel="nofollow">Privacy
+              Policy</a> | <a href="/help/terms-of-use.html" rel="nofollow">Terms of Use</a> | <a
+              href="/help/terms-of-sale.html" rel="nofollow">Terms of Sale</a></p>
+
+        </div>
+        <!--/.footer-legal-->
+
+        <!--/.footer-payment-->
+      </div>
+      <!--/.footer-custom-->
+    </div>
+    <!--/.footer-gray-->
+  </footer>
+  <script>
+    const menuBtn = document.querySelector(".menu-icon span");
+    const searchBtn = document.querySelector(".search-icon");
+    const cancelBtn = document.querySelector(".cancel-icon");
+    const items = document.querySelector(".nav-items");
+    const form = document.querySelector("form");
+    menuBtn.onclick = () => {
+      items.classList.add("active");
+      menuBtn.classList.add("hide");
+      searchBtn.classList.add("hide");
+      cancelBtn.classList.add("show");
+    };
+    cancelBtn.onclick = () => {
+      items.classList.remove("active");
+      menuBtn.classList.remove("hide");
+      searchBtn.classList.remove("hide");
+      cancelBtn.classList.remove("show");
+      form.classList.remove("active");
+      cancelBtn.style.color = "#ff3d00";
+    };
+    searchBtn.onclick = () => {
+      form.classList.add("active");
+      searchBtn.classList.add("hide");
+      cancelBtn.classList.add("show");
+    };
+  </script>
+
+  <!-- scripts -->
+  <script src="particles.js"></script>
+  <script src="js/app.js"></script>
+</body>
+
+</html>
